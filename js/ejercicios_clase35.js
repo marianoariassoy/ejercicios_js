@@ -1,6 +1,6 @@
-// Ejercios Clase 35
+// Ejercicios Clase 35
 
-//  1) Programa una función que cuente el número de caracteres de una cadena de texto, pe. miFuncion("Hola Mundo") devolverá 10.
+// 1) Programa una función que cuente el número de caracteres de una cadena de texto, pe. miFuncion("Hola Mundo") devolverá 10.
 stringLength = (string) => (typeof string === "string" ? string.length : "El parametro ingresado no es una cadena válida");
 console.log(stringLength("Hola mundo"));
 console.log(stringLength(""));
